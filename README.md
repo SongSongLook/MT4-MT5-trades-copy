@@ -14,14 +14,14 @@ This repository contains Expert Advisors (EAs) for MetaTrader 4 (MT4) and MetaTr
 
 ## Setup Instructions
 
-### 1. Requirements
+###  Requirements
 - MetaTrader 4 or MetaTrader 5 platform installed.
 - An active trading account on both platforms.
 - Local network connectivity or proper IP/port configuration for cross-machine communication.
 
 ---
 
-### 2. Parameters
+###  Parameters
 | Parameter      | Description                                                                 |
 |----------------|-----------------------------------------------------------------------------|
 | `IsSender`     | Set to `true` to enable sender mode.                                        |
@@ -32,7 +32,7 @@ This repository contains Expert Advisors (EAs) for MetaTrader 4 (MT4) and MetaTr
 
 ---
 
-### 3. Installation
+###  Installation
 #### For MT4
 1. Open MetaTrader 4.
 2. Navigate to `File > Open Data Folder`.
@@ -49,7 +49,7 @@ This repository contains Expert Advisors (EAs) for MetaTrader 4 (MT4) and MetaTr
 
 ---
 
-### 4. Usage
+###  Usage
 #### Sender Mode
 1. Set `IsSender = true` in the EA parameters.
 2. Specify the receiver's IP address (`IPAddress`) and port (`Port`).
@@ -63,7 +63,7 @@ This repository contains Expert Advisors (EAs) for MetaTrader 4 (MT4) and MetaTr
 
 ---
 
-### 5. Example Scenarios
+###  Example Scenarios
 #### Copy Trades from MT4 to MT5
 - Install the EA on both platforms.
 - Set `IsSender = true` on MT4 and `IsReceiver = true` on MT5.
@@ -75,21 +75,15 @@ This repository contains Expert Advisors (EAs) for MetaTrader 4 (MT4) and MetaTr
 
 ---
 
-### 6. Troubleshooting
+###  Troubleshooting
 - **No Connection**: Ensure the IP address and port match on both sender and receiver.
 - **Firewall Issues**: Allow the specified port (e.g., `8888`) in your system's firewall.
 - **Error Messages**: Check the EA logs in the `Experts` and `Journal` tabs for detailed error descriptions.
 
 ---
 
-### 7. Limitations
+###  Limitations
 - Only supports basic buy orders in the current version.
 - Trades are copied in real-time but may experience slight delays due to network latency.
 - Both platforms must remain online for successful signal copying.
 
----
-
-## License
-This EA is provided "as is" for educational purposes. Use it at your own risk. The author is not responsible for any financial losses incurred while using this software.
-# MT4-MT5-trades-copy
-copy trades from platforms 
