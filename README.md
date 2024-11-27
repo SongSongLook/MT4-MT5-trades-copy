@@ -1,4 +1,4 @@
-# MT4/MT5 Signal Copier with TCP Support
+# MT4/MT5 Signal Copier with TCP Support (Issued Fixing)
 
 This repository contains Expert Advisors (EAs) for MetaTrader 4 (MT4) and MetaTrader 5 (MT5) that allow copying trading signals between platforms using TCP. The EA supports both sender and receiver modes, with a `Multiplier` parameter to adjust the copied lot sizes.
 
@@ -15,7 +15,6 @@ This repository contains Expert Advisors (EAs) for MetaTrader 4 (MT4) and MetaTr
 ## Setup Instructions
 
 ###  Requirements
-- MetaTrader 4 or MetaTrader 5 platform installed.
 - An active trading account on both platforms.
 - Local network connectivity or proper IP/port configuration for cross-machine communication.
 
